@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="YoRHa - proyecto secreto de androides creado por los restos de la humanidad para combatir las máquinas que invadieron la Tierra.">
+  <meta name="keywords" content="2B, 9S, Kaine, Devola, Popola, A20">
+  <title>YoRHa</title>
+  <link rel="shortcut icon" href="img/icon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <!-- Skip to content link for accessibility -->
+  
+  <header>
+    <div class="header-container">
+      <div class="logo">
+        <img src="img/logo.webp" alt="Logo" width="120" height="40">
+        <h1>YoRHa</h1>
+      </div>
+      <nav class="menubar" aria-label="Navegación principal">
+        <button id="menu-toggle" aria-label="Menú" aria-expanded="false"><i class="fas fa-bars"></i></button>
+        <ul class="menu">
+          <li><a href="#inicio" class="active"><i class="fas fa-home"></i> Inicio</a></li>
+          <li><a href="#servicios"><i class="fas fa-hand-holding-usd"></i> Servicios</a></li>
+          <li><a href="#nosotros"><i class="fas fa-users"></i> Nosotros</a></li>
+          <li><a href="#sucursal"><i class="fas fa-map-marker-alt"></i> Sucursal</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+  <main id="main-content">
+    <section id="inicio" class="hero">
+      <!-- Fondo animado SVG -->
+      <div class="animated-bg">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMax slice">
+          <defs>
+            <linearGradient id="bg">
+              <stop offset="0%" style="stop-color:rgb(80, 4, 76)"></stop>
+              <stop offset="50%" style="stop-color:rgb(142, 0, 59)"></stop>
+              <stop offset="100%" style="stop-color:rgb(225, 106, 199)"></stop>
+            </linearGradient>
+            <path id="wave" fill="url(#bg)" d="M-363.852,502.589c0,0,236.988-41.997,505.475,0 s371.981,38.998,575.971,0s293.985-39.278,505.474,5.859s493.475,48.368,716.963-4.995v560.106H-363.852V502.589z" />
+          </defs>
+          <g>
+            <use xlink:href='#wave' opacity=".3">
+              <animateTransform
+                attributeName="transform"
+                attributeType="XML"
+                type="translate"
+                dur="10s"
+                calcMode="spline"
+                values="270 230; -334 180; 270 230"
+                keyTimes="0; .5; 1"
+                keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+                repeatCount="indefinite" />
+            </use>
+            <use xlink:href='#wave' opacity=".6">
+              <animateTransform
+                attributeName="transform"
+                attributeType="XML"
+                type="translate"
+                dur="8s"
+                calcMode="spline"
+                values="-270 230;243 220;-270 230"
+                keyTimes="0; .6; 1"
+                keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+                repeatCount="indefinite" />
+            </use>
+            <use xlink:href='#wave' opacity=".9">
+              <animateTransform
+                attributeName="transform"
+                attributeType="XML"
+                type="translate"
+                dur="6s"
+                calcMode="spline"
+                values="0 230;-140 200;0 230"
+                keyTimes="0; .4; 1"
+                keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+                repeatCount="indefinite" />
+            </use>
+          </g>
+        </svg>
+      </div>
+      
+      <div class="hero-content">
+        <h1>YoRHa</h1>
+        <p class="hero-subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+        <div class="cta-buttons">
+          <a href="#nosotros" class="btn primary mobile-only"></a>
+        </div>
+      </div>
+    </section>
+    
+    <section id="servicios" class="services">
+      <div class="section-header">
+        <h2>Lorel Ipsum</h2>
+        <p class="section-subtitle">Lorel Ipsum is simply dummy text of the printing and typesetting industry.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-piggy-bank"></i>
+          </div>
+          <h3>Servicio 1</h3>
+          <ul class="service-features">
+            <li><i class="fas fa-check-circle"></i> Sample Text</li>
+            <li><i class="fas fa-check-circle"></i> Sample Text</li>
+            <li><i class="fas fa-check-circle"></i> Sample Text</li>
+          </ul>
+          <a href="#ahorros-info" class="service-link">Más detalles <i class="fas fa-chevron-right"></i></a>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-credit-card"></i>
+          </div>
+          <h3>Servicio 2</h3>
+          <ul class="service-features">
+            <li><i class="fas fa-check-circle"></i> Sample Text</li>
+            <li><i class="fas fa-check-circle"></i> Sample Text</li>
+            <li><i class="fas fa-check-circle"></i> Sample Text</li>
+          </ul>
+          <a href="#tarjetas-info" class="service-link">Más detalles <i class="fas fa-chevron-right"></i></a>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-home"></i>
+          </div>
+          <h3>Servicio 3</h3>
+          <ul class="service-features">
+            <li><i class="fas fa-check-circle"></i> Sample Text</li>
+            <li><i class="fas fa-check-circle"></i> Sample Text</li>
+            <li><i class="fas fa-check-circle"></i> Sample Text</li>
+          </ul>
+          <a href="#hipotecas-info" class="service-link">Más detalles <i class="fas fa-chevron-right"></i></a>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <h3>Servicio 4</h3>
+          <ul class="service-features">
+            <li><i class="fas fa-check-circle"></i> Sample Text</li>
+            <li><i class="fas fa-check-circle"></i> Sample Text</li>
+            <li><i class="fas fa-check-circle"></i> Sample Text</li>
+          </ul>
+          <a href="#inversiones-info" class="service-link">Más detalles <i class="fas fa-chevron-right"></i></a>
+        </div>
+      </div>
+    </section>
+    
+    <section id="detalles-servicios" class="service-details">
+      <div class="detail-section" id="ahorros-info">
+        <h3><i class="fas fa-piggy-bank"></i> Servicio 1</h3>
+        <div class="detail-content">
+          <div class="detail-text">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book:</p>
+            <ul>
+              <li><strong>Sample Strong Text:</strong> Sample Text</li>
+              <li><strong>Sample Strong Text:</strong> Sample Text</li>
+              <li><strong>Sample Strong Text:</strong> Sample Text</li>
+              <li><strong>Sample Strong Text:</strong> Sample Text</li>
+            </ul>
+          </div>
+          <div class="detail-image">
+            <img src="img/example.webp" alt="Cuenta de ahorros" loading="lazy">
+          </div>
+        </div>
+      </div>
+      
+      <div class="detail-section" id="tarjetas-info">
+        <h3><i class="fas fa-credit-card"></i> Servicio 2</h3>
+        <div class="detail-content">
+          <div class="detail-text">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book:</p>
+            <div class="card-comparison">
+              <div class="card-type">
+                <h4>Servicio 2</h4>
+                <ul>
+                  <li>Sample Text</li>
+                  <li>Sample Text</li>
+                  <li>Sample Text</li>
+                </ul>
+              </div>
+              <div class="card-type">
+                <h4>Servicio 2</h4>
+                <ul>
+                  <li>Sample Text</li>
+                  <li>Sample Text</li>
+                  <li>Sample Text</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="detail-image">
+            <img src="img/nosotros.jpg" alt="Tarjetas bancarias" loading="lazy">
+          </div>
+        </div>
+      </div>
+      
+      <div class="detail-section" id="hipotecas-info">
+        <h3><i class="fas fa-home"></i> Servicio 3</h3>
+        <div class="detail-content">
+          <div class="detail-text">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book:</p>
+            <ul>
+              <li><strong>Sample Strong Text</strong> Sample Text</li>
+              <li><strong>Sample Strong Text</strong> Sample Text</li>
+              <li><strong>Sample Strong Text</strong> Sample Text</li>
+              <li><strong>Sample Strong Text</strong> Sample Text</li>
+            </ul>
+          </div>
+          <div class="detail-image">
+            <img src="img/nosotros3.jpg" alt="Préstamos hipotecarios" loading="lazy">
+          </div>
+        </div>
+      </div>
+      
+      <div class="detail-section" id="inversiones-info">
+        <h3><i class="fas fa-chart-line"></i> Servicio 4</h3>
+        <div class="detail-content">
+          <div class="detail-text">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book:</p>
+            <ul>
+              <li><strong>Sample Strong Text</strong> Sample Text</li>
+              <li><strong>Sample Strong Text</strong> Sample Text</li>
+              <li><strong>Sample Strong Text</strong> Sample Text</li>
+              <li><strong>Sample Strong Text</strong> Sample Text</li>
+            </ul>
+          </div>
+          <div class="detail-image">
+            <img src="img/nosotros2.jpg" alt="Opciones de inversión" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="nosotros" class="about">
+      <div class="about-container">
+        <div class="about-content">
+          <div class="section-header">
+            <h2>Sobre Nosotros</h2>
+            <p class="section-subtitle">Nuestra historia y compromiso</p>
+          </div>
+          <p>proyecto secreto de androides creado por los restos de la humanidad para combatir las máquinas que invadieron la Tierra.</p>
+          
+          <div class="mission-vision">
+            <div class="mv-card">
+              <i class="fas fa-bullseye"></i>
+              <h4>Misión</h4>
+              <p>Recuperar la Tierra de las máquinas y mantener la moral de los androides ocultando la verdad sobre la extinción de la humanidad. </p>
+            </div>
+            <div class="mv-card">
+              <i class="fas fa-eye"></i>
+              <h4>Estructura</h4>
+              <p>Los androides YoRHa se dividen en diferentes modelos, como los de combate (B), los de reconocimiento (S), y los de soporte (O, de operador), cada uno con habilidades y funciones específicas. </p>
+            </div>
+          </div>
+          
+          <div class="values">
+            <h4>Nuestros Valores</h4>
+            <ul>
+              <li><i class="fas fa-check"></i> Transparencia</li>
+              <li><i class="fas fa-check"></i> Honestidad</li>
+              <li><i class="fas fa-check"></i> Educación financiera</li>
+              <li><i class="fas fa-check"></i> Servicio al cliente</li>
+            </ul>
+          </div>
+        </div>
+        <div class="about-image">
+          <img src="img/nosotros.webp" alt="Historia de YoRHa" loading="lazy">
+        </div>
+      </div>
+    </section>
+    
+    <section id="sucursal" class="branch">
+      <div class="section-header">
+        <h2>Nuestra Sede</h2>
+        <p class="section-subtitle">Visítanos para más información personalizada</p>
+      </div>
+      <div class="branch-container">
+        <div class="branch-map">
+      <!-- Iframe de Google Maps -->
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2580.162656031963!2d-106.58252682318894!3d49.70773944056139!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53176337b63ae12f%3A0x26becc478e8c0b6b!2sYoRHa!5e0!3m2!1ses-419!2spy!4v1752440903146!5m2!1ses-419!2spy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="branch-info">
+          <div class="branch-card">
+            <h3><i class="fas fa-map-marker-alt"></i> Sucursal Principal</h3>
+            <p><i class="fas fa-clock"></i> Horario: Lunes a Viernes de 8:00 a 16:00</p>
+            <p><i class="fas fa-phone"></i> Contacto: (0977)777777</p>
+            <p><i class="fas fa-envelope"></i> Correo: yorha@yorha.com</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <footer>
+    <div class="footer-container">
+      <div class="footer-main">
+        <div class="footer-logo">
+          <img src="img/logo.webp" alt="Logo INABANC" width="150" height="50">
+          <p>YoRHa</p>
+          <div class="footer-social">
+            <a href="https://instagram.com/inabanc_oficial" aria-label="Correo Electronico"><i class="fas fa-envelope"></i></a>
+            <a href="https://www.linkedin.com/company/inabanc" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+        
+        <div class="footer-links">
+          <div class="link-group">
+            <h4>Servicios</h4>
+            <ul>
+              <li><a href="#ahorros-info">Servicio 1</a></li>
+              <li><a href="#tarjetas-info">Servicio 2</a></li>
+              <li><a href="#hipotecas-info">Servicio 3</a></li>
+              <li><a href="#inversiones-info">Servicio 4</a></li>
+            </ul>
+          </div>
+          
+          <div class="link-group">
+            <h4>Accesos rápidos</h4>
+            <ul>
+              <li><a href="#nosotros">Sobre nosotros</a></li>
+              <li><a href="#sucursal">Visítanos</a></li>
+              <li><a href="#main-content">Volver arriba</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <div class="disclaimer">
+          <p>
+            YoRHa es una institución eficticia. 
+            La información proporcionada en este sitio es de carácter informativo y educativo, 
+            y no constituye asesoramiento financiero profesional. 
+            Este sitio no recopila datos personales de los usuarios ni utiliza cookies de seguimiento.
+          </p>
+        </div>
+        <div class="copyright">
+          <p>&copy; 2025 Santiago Franco - Derlis Centurion - Cesar Fernandez</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- Botones flotantes de redes sociales -->
+  <div class="social-float">
+    <a href="https://wa.me/595999999999" class="social-btn whatsapp" target="_blank" aria-label="WhatsApp">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+    <a href="https://www.facebook.com/SquareEnixLatam/?brand_redir=59916854460" class="social-btn facebook" target="_blank" aria-label="Facebook">
+      <i class="fab fa-facebook-f"></i>
+    </a>
+    <a href="https://www.instagram.com/niergame/" class="social-btn instagram" target="_blank" aria-label="Instagram">
+      <i class="fab fa-instagram"></i>
+    </a>
+  </div>
+</body>
+</html>
