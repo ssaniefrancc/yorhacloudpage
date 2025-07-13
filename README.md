@@ -11,15 +11,19 @@ YoRHa Cloud Page nace como una marca conceptual:
 ## 📸 Vista previa de la pagina
 ## Encabezado
 <img width="1920" height="917" alt="image" src="https://github.com/user-attachments/assets/92c6e11c-d661-44b4-b3f7-8a111aea74b6" />
+
 ## Apartado de servicios
 <img width="1920" height="917" alt="image" src="https://github.com/user-attachments/assets/a35026e7-4fa6-4add-bede-9a1d01060e3f" />
 <img width="1920" height="917" alt="image" src="https://github.com/user-attachments/assets/63f16a7d-ccfa-48aa-ba9e-61ca83421676" />
 <img width="1920" height="917" alt="image" src="https://github.com/user-attachments/assets/702fd2b7-1d7f-4aa8-8b24-a91bdadc70fd" />
 <img width="1920" height="917" alt="image" src="https://github.com/user-attachments/assets/ded6d853-3ef1-499d-a7fa-07b0a2c0221b" />
+
 ## Sobre nosotros
 <img width="1920" height="917" alt="image" src="https://github.com/user-attachments/assets/680dd130-6df5-4122-927d-5760debb256e" />
+
 ## Nuestra Sede
 <img width="1920" height="917" alt="image" src="https://github.com/user-attachments/assets/2d60b894-9d5b-426a-ab9b-35f6dea7d272" />
+
 ## Footer
 <img width="1920" height="917" alt="image" src="https://github.com/user-attachments/assets/da222de2-becc-47bc-bba3-5540400ffb54" />
 
