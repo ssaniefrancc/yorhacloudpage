@@ -1,4 +1,4 @@
-3YoRHa Cloud Page
+#YoRHa Cloud Page
 Bienvenido a YoRHa Cloud Page, un espacio digital donde convergen el diseño, la tecnología y el alma de las máquinas. Inspirado en la estética de NieR: Automata y la visión de un futuro donde los datos y los corazones coexisten, este sitio web es una mezcla de portfolio, instituto conceptual y zona de exploración creativa.
 
 🌐 Sitio Web
