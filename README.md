@@ -47,3 +47,8 @@ Experiencia de usuario expandida con animaciones y modo oscuro
 ## 🤖 Créditos
 Creado con pasión y visión por [Santiago Franco] [Derlis Centurion] [Cesar Fernandez]
 Inspirado en la saga de videojuegos NieR
+Tematica sugerida por: Santiago Franco
+CSS y HTML: Santiago Franco - Derlis Centurion - Cesar Fernandez
+JavaScript: Santiago Franco
+Optimizacion de imagenes para la pagina: Derlis Centurion
+Verificacion y correcion de errores: Cesar Fernandez
